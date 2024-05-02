@@ -1,6 +1,6 @@
 import random
 
-doing = (2, 4, 6, 8, 10, 12, 20)
+doing = (2, 4, 6, 8, 10, 12, 20, 100)
 done = False
 import os
 
@@ -11,6 +11,7 @@ def cls():
 
 while not done:
     print('DND dicer')
+    print('Possible dice is 2, 4, 6, 8, 10, 12, 20, 100')
     print('Choose your dice in xdx format 4d6 for example')
 
     what = 0
